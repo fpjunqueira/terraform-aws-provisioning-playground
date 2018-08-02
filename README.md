@@ -1,2 +1,2 @@
-# terraform-playground
+# Terraform Playground
 Repository for playing around Terraform
