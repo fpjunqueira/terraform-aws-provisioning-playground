@@ -18,11 +18,11 @@ variable "AMIS" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "../aws.pem"
+  default = "aws-key"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "../aws.pem"
+  default = "aws-key.pub"
 }
 
 variable "INSTANCE_USERNAME" {
