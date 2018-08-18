@@ -7,7 +7,7 @@ Repository for playing around Terraform AWS Provider
 `$ aws ec2 describe-regions
 `
 
-**See Availability Zones of us-east-1**
+**See Availability Zones for us-east-1**
 
 `$ aws ec2 describe-availability-zones --region us-east-1
 `
@@ -20,6 +20,11 @@ Repository for playing around Terraform AWS Provider
 **Init Terraform**
 
 `$ terraform init
+`
+
+**See what'll change**
+
+`$ terraform plan
 `
 
 **Provisioning**
