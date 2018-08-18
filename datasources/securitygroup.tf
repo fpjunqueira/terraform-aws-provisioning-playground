@@ -1,3 +1,5 @@
+# filtering traffic based on an aws region using security groups
+
 # filtering traffic in aws using security groups (incoming and outgoing filtered by protocol, ip range and port)
 
 # INPUT DATA (it will be pulled from aws that contains all the IP ranges for this region)
