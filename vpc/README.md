@@ -1,4 +1,4 @@
-**Ssh to instance**
+**ssh to instance**
 
-`$ ssh 34.231.225.250 -l ubuntu -i aws-key
+`$ ssh <ip/dns> -l ubuntu -i aws-key
 `
