@@ -1,3 +1,7 @@
+# use terraform get command to download this module in Terraform
+
+# $ terraform get
+
 module "consul" {
   source = "github.com/wardviaene/terraform-consul-module.git"
   # public key
