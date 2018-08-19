@@ -1,4 +1,4 @@
-**Ssh to instance**
+**ssh to instance**
 
 `$ ssh -i ../aws-key -l ubuntu <IP/DNS>
 `
