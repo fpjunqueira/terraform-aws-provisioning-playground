@@ -27,7 +27,7 @@
 `elb = <elastic-load-balancer-dns>
 `
 
-_Do get to outoput above:_
+_Do get to output above:_
 
 
 `$ curl <elastic-load-balancer-dns>
