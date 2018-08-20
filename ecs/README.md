@@ -1,11 +1,35 @@
-**aws ecs terraform**
+# AWS ECS Terraform
 
-$ terraform init
+**Init Terraform Plugins**
 
-$ terraform apply
+`$ terraform init
+`
 
-$ docker tag fjunqueira/spring-cloud-playground-eureka-server <ecr url output>:latest
+**See the Plan**
 
-$ `aws ecr get-login --no-include-email --region us-east-1`
 
-$ docker push 540001496417.dkr.ecr.us-east-1.amazonaws.com/eureka-server:latest
+`$ terraform plan
+`
+
+**Aplly planned changes**
+
+`$ terraform apply
+`
+
+**Output**
+
+`Apply complete! Resources: 27 added, 0 changed, 0 destroyed.
+`
+
+`Outputs:
+`
+
+`elb = <elastic-load-balancer-dns>
+`
+
+_Do get to outoput above:_
+
+
+`$ curl <elastic-load-balancer-dns>
+`
+

@@ -1,3 +1,4 @@
-output "eureka-server-repository-URL" {
-  value = "${aws_ecr_repository.eureka-server.repository_url}"
+# the point that we can access
+output "elb" {
+  value = "${aws_elb.eureka-server-elb.dns_name}"
 }
