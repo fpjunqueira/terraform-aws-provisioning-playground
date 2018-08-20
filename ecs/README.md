@@ -33,3 +33,4 @@ _Do get to outoput above:_
 `$ curl <elastic-load-balancer-dns>
 `
 
+<img src="eureka-server.png" alt="eureka-server"/>
